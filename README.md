@@ -12,12 +12,12 @@ $ docker run <YOUR_TAG> python <YOUR_FILE>
 There are two simple test files for you to try out. There are the output:
 
 ```
-$ docker run base-python python index.py
+$ docker run base-python python src/index.py
 Hello World!
 ```
 
 ```
-$ docker run base-python python jobs.py
+$ docker run base-python python src/jobs.py
 {'company': 'New York Public Radio ',
  'company_logo': None,
  'company_url': 'http:',

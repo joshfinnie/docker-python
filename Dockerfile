@@ -20,7 +20,7 @@ WORKDIR /home/app
 USER app
 
 # Copy the code
-COPY src .
+COPY src/ ./src/
 
 # Use Dumb Init's entrypoint.
 ENTRYPOINT ["dumb-init", "--"]
