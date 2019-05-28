@@ -17,7 +17,7 @@ Hello World!
 ```
 
 ```
-$ python src/jobs.py
+$ docker run base-python python jobs.py
 {'company': 'New York Public Radio ',
  'company_logo': None,
  'company_url': 'http:',
